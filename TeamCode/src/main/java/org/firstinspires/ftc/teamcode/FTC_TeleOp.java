@@ -12,6 +12,7 @@ public class FTC_TeleOp {
         //Agreguen comentario con su nombre los que ya tengan acceso, abajo de este comentario
         //André Maximiliano Celis Ruiz
         //Alexis Santiago Quiles Perez
+        //Miguel Angel Madriz Cortez
     }
 
     void loop()
