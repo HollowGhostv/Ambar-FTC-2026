@@ -2,21 +2,23 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
+import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
 
 @TeleOp
-public class FTC_TeleOp {
+public class FTC_TeleOp extends OpMode {
 
-    void init()
-    {
-        //Agreguen comentario con su nombre los que ya tengan acceso, abajo de este comentario
-        //André Maximiliano Celis Ruiz
-        //Alexis Santiago Quiles Perez
-        //Miguel Angel Madriz Cortez
-    }
-
-    void loop()
+    @Override
+    public void init()
     {
 
     }
+
+    @Override
+    public void loop()
+    {
+
+    }
+
 }
