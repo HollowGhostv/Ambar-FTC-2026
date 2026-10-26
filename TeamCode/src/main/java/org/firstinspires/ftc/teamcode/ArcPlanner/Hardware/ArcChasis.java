@@ -42,8 +42,9 @@ public class ArcChasis
     private void configureMotors()
     {
         FR.setDirection(DcMotorSimple.Direction.REVERSE);
-        BR.setDirection(DcMotorSimple.Direction.FORWARD);
+        BR.setDirection(DcMotorSimple.Direction.REVERSE);
         FL.setDirection(DcMotorSimple.Direction.REVERSE);
+        BL.setDirection(DcMotorSimple.Direction.FORWARD);
 
         DcMotorEx[] motors = {FL, FR, BL, BR};
         for (DcMotorEx motor : motors)

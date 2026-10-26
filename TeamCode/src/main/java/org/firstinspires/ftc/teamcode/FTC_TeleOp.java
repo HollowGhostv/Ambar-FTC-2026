@@ -50,7 +50,7 @@ public class FTC_TeleOp extends OpMode
     public void loop()
     {
         // Creamos las variables de nuestros Joysticks
-        float JoystickYL = gamepad1.left_stick_y;
+        float JoystickYL = -gamepad1.left_stick_y;
         float JoystickXL = gamepad1.left_stick_x;
         float JoystickXR = gamepad1.right_stick_x;
 
